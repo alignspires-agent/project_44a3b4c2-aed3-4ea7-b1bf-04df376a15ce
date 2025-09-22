@@ -1,0 +1,170 @@
+Lambda Execution Result (Latest Run):
+=== Experiment Output ===
+
+==================================================
+
+EXPERIMENT RESULTS
+
+==================================================
+
+LP Robust Model Coverage (original): 1.0000
+
+LP Robust Model Coverage (shifted): 1.0000
+
+Non-Robust Model Coverage (shifted): 0.8733
+
+Coverage Drop (Robust): 0.1000
+
+Coverage Drop (Non-Robust): 0.0267
+
+Robustness Improvement: 0.1267
+
+==================================================
+
+Coverage maintained under shift: True
+
+Robustness demonstrated: True
+
+Worst-case quantile: 9.2481
+
+=== Experiment Errors ===
+
+2025-09-22 04:03:27,085 - INFO - Starting LP Conformal Prediction Experiment
+
+2025-09-22 04:03:27,085 - INFO - Generating synthetic data...
+
+2025-09-22 04:03:27,449 - INFO - Fitting LP conformal prediction model...
+
+2025-09-22 04:03:27,459 - INFO - Model fitted. Worst-case quantile: 9.2481
+
+2025-09-22 04:03:27,459 - INFO - Making predictions on test data...
+
+2025-09-22 04:03:27,462 - INFO - Coverage on original test data: 1.000
+
+2025-09-22 04:03:27,462 - INFO - Simulating distribution shift...
+
+2025-09-22 04:03:27,462 - INFO - Coverage on shifted test data: 1.000
+
+2025-09-22 04:03:27,462 - INFO - Comparing with non-robust conformal prediction...
+
+2025-09-22 04:03:27,462 - INFO - Fitting LP conformal prediction model...
+
+2025-09-22 04:03:27,462 - INFO - Model fitted. Worst-case quantile: 4.0958
+
+2025-09-22 04:03:27,464 - INFO - Non-robust coverage on shifted data: 0.873
+
+2025-09-22 04:03:27,464 - INFO - Validating theoretical properties...
+
+2025-09-22 04:03:27,464 - INFO - Validation successful: Model demonstrates robustness to distribution shifts
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "\n==================================================\nEXPERIMENT RESULTS\n==================================================\nLP Robust Model Coverage (original): 1.0000\nLP Robust Model Coverage (shifted): 1.0000\nNon-Robust Model Coverage (shifted): 0.8733\nCoverage Drop (Robust): 0.1000\nCoverage Drop (Non-Robust): 0.0267\nRobustness Improvement: 0.1267\n==================================================\nCoverage maintained under shift: True\nRobustness demonstrated: True\nWorst-case quantile: 9.2481\n",
+
+"stderr": "2025-09-22 04:03:27,085 - INFO - Starting LP Conformal Prediction Experiment\n2025-09-22 04:03:27,085 - INFO - Generating synthetic data...\n2025-09-22 04:03:27,449 - INFO - Fitting LP conformal prediction model...\n2025-09-22 04:03:27,459 - INFO - Model fitted. Worst-case quantile: 9.2481\n2025-09-22 04:03:27,459 - INFO - Making predictions on test data...\n2025-09-22 04:03:27,462 - INFO - Coverage on original test data: 1.000\n2025-09-22 04:03:27,462 - INFO - Simulating distribution shift...\n2025-09-22 04:03:27,462 - INFO - Coverage on shifted test data: 1.000\n2025-09-22 04:03:27,462 - INFO - Comparing with non-robust conformal prediction...\n2025-09-22 04:03:27,462 - INFO - Fitting LP conformal prediction model...\n2025-09-22 04:03:27,462 - INFO - Model fitted. Worst-case quantile: 4.0958\n2025-09-22 04:03:27,464 - INFO - Non-robust coverage on shifted data: 0.873\n2025-09-22 04:03:27,464 - INFO - Validating theoretical properties...\n2025-09-22 04:03:27,464 - INFO - Validation successful: Model demonstrates robustness to distribution shifts\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 1774.45 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
+=== Experiment Output ===
+
+==================================================
+
+EXPERIMENT RESULTS
+
+==================================================
+
+LP Robust Model Coverage (original): 1.0000
+
+LP Robust Model Coverage (shifted): 1.0000
+
+Non-Robust Model Coverage (shifted): 0.8733
+
+Coverage Drop (Robust): 0.1000
+
+Coverage Drop (Non-Robust): 0.0267
+
+Robustness Improvement: 0.1267
+
+==================================================
+
+Coverage maintained under shift: True
+
+Robustness demonstrated: True
+
+Worst-case quantile: 9.2481
+
+=== Experiment Errors ===
+
+2025-09-22 04:03:27,655 - INFO - Starting LP Conformal Prediction Experiment
+
+2025-09-22 04:03:27,656 - INFO - Generating synthetic data...
+
+2025-09-22 04:03:27,675 - INFO - Fitting LP conformal prediction model...
+
+2025-09-22 04:03:27,675 - INFO - Model fitted. Worst-case quantile: 9.2481
+
+2025-09-22 04:03:27,675 - INFO - Making predictions on test data...
+
+2025-09-22 04:03:27,677 - INFO - Coverage on original test data: 1.000
+
+2025-09-22 04:03:27,677 - INFO - Simulating distribution shift...
+
+2025-09-22 04:03:27,682 - INFO - Coverage on shifted test data: 1.000
+
+2025-09-22 04:03:27,682 - INFO - Comparing with non-robust conformal prediction...
+
+2025-09-22 04:03:27,682 - INFO - Fitting LP conformal prediction model...
+
+2025-09-22 04:03:27,682 - INFO - Model fitted. Worst-case quantile: 4.0958
+
+2025-09-22 04:03:27,684 - INFO - Non-robust coverage on shifted data: 0.873
+
+2025-09-22 04:03:27,684 - INFO - Validating theoretical properties...
+
+2025-09-22 04:03:27,684 - INFO - Validation successful: Model demonstrates robustness to distribution shifts
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "\n==================================================\nEXPERIMENT RESULTS\n==================================================\nLP Robust Model Coverage (original): 1.0000\nLP Robust Model Coverage (shifted): 1.0000\nNon-Robust Model Coverage (shifted): 0.8733\nCoverage Drop (Robust): 0.1000\nCoverage Drop (Non-Robust): 0.0267\nRobustness Improvement: 0.1267\n==================================================\nCoverage maintained under shift: True\nRobustness demonstrated: True\nWorst-case quantile: 9.2481\n",
+
+"stderr": "2025-09-22 04:03:27,655 - INFO - Starting LP Conformal Prediction Experiment\n2025-09-22 04:03:27,656 - INFO - Generating synthetic data...\n2025-09-22 04:03:27,675 - INFO - Fitting LP conformal prediction model...\n2025-09-22 04:03:27,675 - INFO - Model fitted. Worst-case quantile: 9.2481\n2025-09-22 04:03:27,675 - INFO - Making predictions on test data...\n2025-09-22 04:03:27,677 - INFO - Coverage on original test data: 1.000\n2025-09-22 04:03:27,677 - INFO - Simulating distribution shift...\n2025-09-22 04:03:27,682 - INFO - Coverage on shifted test data: 1.000\n2025-09-22 04:03:27,682 - INFO - Comparing with non-robust conformal prediction...\n2025-09-22 04:03:27,682 - INFO - Fitting LP conformal prediction model...\n2025-09-22 04:03:27,682 - INFO - Model fitted. Worst-case quantile: 4.0958\n2025-09-22 04:03:27,684 - INFO - Non-robust coverage on shifted data: 0.873\n2025-09-22 04:03:27,684 - INFO - Validating theoretical properties...\n2025-09-22 04:03:27,684 - INFO - Validation successful: Model demonstrates robustness to distribution shifts\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 199.14 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: 027f8268-b5d6-41db-a190-3fb90050e5cd Version: $LATEST
+
+RequestId: 027f8268-b5d6-41db-a190-3fb90050e5cd Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: 027f8268-b5d6-41db-a190-3fb90050e5cd
+
+REPORT RequestId: 027f8268-b5d6-41db-a190-3fb90050e5cd	Duration: 201.61 ms	Billed Duration: 202 ms	Memory Size: 3008 MB	Max Memory Used: 24 MB	
+
